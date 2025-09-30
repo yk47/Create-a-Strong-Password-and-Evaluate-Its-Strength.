@@ -14,14 +14,21 @@ The objective of this task is to understand what makes a password strong by crea
 ### 1. Weak Password Example
 - Password: yash123
 - Result:
-    - Score: 20%
+    - Score: 37%
     - Feedback: Too short, dictionary-based, predictable, no symbols/uppercase
 - Analysis: Easy to guess using brute force or dictionary attack
 
-### 3. Strong Password Example
-- Password: S!lv3r$H@dow2025
+### 2. Medium Password Example
+- Password: yash@123
 - Result:
-    - Score: 90%
+    - Score: 59%
+    - Feedback: Improved strength with uppercase, number, and symbol. Still short (8 chars).
+- Analysis: Better than first one, but can still be cracked in hours/days with brute force
+
+### 3. Strong Password Example
+- Password: S!lvrHdow2
+- Result:
+    - Score: 78%
     - Feedback: Strong mix of uppercase, lowercase, numbers, and special characters. Length improves resilience.
 - Analysis: Resistant to brute force, dictionary, and common password guessing attacks
 

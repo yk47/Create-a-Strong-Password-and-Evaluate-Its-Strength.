@@ -17,6 +17,12 @@ The objective of this task is to understand what makes a password strong by crea
     - Score: 37%
     - Feedback: Too short, dictionary-based, predictable, no symbols/uppercase
 - Analysis: Easy to guess using brute force or dictionary attack
+  
+  📸 Weak Password Testing Screenshots
+  
+<img width="611" height="880" alt="week_password" src="https://github.com/user-attachments/assets/e89728b4-77d4-415c-b188-bf0bbc7940fb" />
+
+  
 
 ### 2. Medium Password Example
 - Password: yash@123
@@ -24,6 +30,11 @@ The objective of this task is to understand what makes a password strong by crea
     - Score: 59%
     - Feedback: Improved strength with uppercase, number, and symbol. Still short (8 chars).
 - Analysis: Better than first one, but can still be cracked in hours/days with brute force
+  
+   📸 Medium Password Testing Screenshots
+  
+  <img width="609" height="881" alt="medium_password" src="https://github.com/user-attachments/assets/708ea23c-3fca-4229-af5e-9cb16b2f9c36" />
+
 
 ### 3. Strong Password Example
 - Password: S!lvrHdow2
@@ -32,6 +43,10 @@ The objective of this task is to understand what makes a password strong by crea
     - Feedback: Strong mix of uppercase, lowercase, numbers, and special characters. Length improves resilience.
 - Analysis: Resistant to brute force, dictionary, and common password guessing attacks
 
+   📸 Strong Password Testing Screenshots
+  
+  <img width="607" height="880" alt="strong_password" src="https://github.com/user-attachments/assets/56e1a5fb-9680-4478-9c9a-50cbbb3f746e" />
+
 
 ### 4. Very Strong Password Example
 - Password: M^9!tR@pL3x#7&fQ8Z
@@ -39,6 +54,10 @@ The objective of this task is to understand what makes a password strong by crea
     - Score: 100%
     - Feedback: Excellent password — long (18 chars), random, uses all character classes
 - Analysis: Nearly impossible to brute force in reasonable time, highly secure
+  
+  📸 Very Strong Password Testing Screenshots
+  
+  <img width="608" height="880" alt="very_strong_password" src="https://github.com/user-attachments/assets/1891f686-a562-4aad-a3da-3bfb52f5666c" />
 
 
 ## 📚 Best Practices Learned
